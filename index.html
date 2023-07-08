@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li class="logo">
+        <i class="fas fa-home"></i>
+        <a href="#">Logo</a>
+      </li>
+      <li><a href="#our-team">Team</a></li>
+      <li><a href="#our-work">Work</a></li>
+      <li><a href="#">Price</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+      <li class="dropdown">
+        <span>Dropdown <span class="arrow-down"></span> </span>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action 1</a></li>
+          <li><a href="#">Action 2</a></li>
+          <li><a href="#">Something else here</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="search-icon">
+      <i class="fa fa-search"></i>
+    </div>
+    <div class="hamburger-menu">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+  
+  
+
+      <div class="responsive-image">
+        <img src="images/main.avif" alt="Responsive Image">
+        <div class="overlay">Talentera</div>
+      </div>
+      
+      <div class="our-team" id="our-team">
+        <h2>Our Team</h2>
+        <p>Meet the team - our office rats:</p>
+        <div class="team-members">
+          <div class="member">
+            <img src="images/person1.webp" alt="Team Member 1">
+            <p>Islam AlZatary</p>
+            <p>Support</p>
+          </div>
+          <div class="member">
+            <img src="images/person2.jpeg" alt="Team Member 2">
+            <p>Tayseer Emam</p>
+            <p>Web Designer</p>
+          </div>
+          <div class="member">
+            <img src="images/person3.jpg" alt="Team Member 3">
+            <p>Mohammad Taha</p>
+            <p>Boss max</p>
+          </div>
+          <div class="member">
+            <img src="images/person4.jfif" alt="Team Member 4">
+            <p>Ahmad Mohsen</p>
+            <p>Fixer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="our-work" id="our-work">
+        <div class="text-lorem">
+          <h2>Our Work</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis consectetur nesciunt doloribus, molestias
+            tempora aliquam voluptate non dolore assumenda laborum
+            excepturi optio ea, earum consequatur error neque aperiam quas mollitia. 
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Cupiditate eum voluptate animi ut veniam eos quis rem ipsa ab, 
+            incidunt doloremque quidem laborum placeat esse dolorum dolore 
+            quo consectetur provident!
+          </p>
+        </div>
+        <div class="card">
+          <img src="images/work1.jfif" alt="Work 1">
+          <div class="card-content">
+            <h3>Customer 1</h3>
+            <h4>Trade</h4>
+            <p>Blablabla</p>
+            <p>Blablabla</p>
+            <p>Blablabla</p>
+            <p>Blablabla</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/work2.jfif" alt="Work 2">
+          <div class="card-content">
+            <h3>Customer 2</h3>
+            <h4>Trade</h4>
+            <p>Blablabla</p>
+            <p>Blablabla</p>
+            <p>Blablabla</p>
+            <p>Blablabla</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/work3.jfif" alt="Work 3">
+          <div class="card-content">
+            <h3>Customer 3</h3>
+            <h4>Trade</h4>
+            <p>Blablabla</p>
+            <p>Blablabla</p>
+            <p>Blablabla</p>
+            <p>Blablabla</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-section" id="contact-section">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <h3>Address</h3>
+          <p>Swing by for a cup of coffee or whatever:</p>
+          <p><i class="fas fa-map-marker-alt" ></i> Amman, Jordan</p>
+          <p><i class="fas fa-phone" ></i> +9627200200005</p>
+          <p><i class="fas fa-envelope" ></i> test@email.com</p>
+        </div>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <div><label for="name">Name</label></div>
+              <input type="text" id="name" >
+            </div>
+            <div class="form-group">
+              <div><label for="email">Email</label></div>
+              <input type="email" id="email">
+            </div>
+            <div class="form-group">
+              <div><label for="message">Message</label></div>
+              <input type="message" id="message" >
+            </div>
+            <div class="form-group" id="last-line">
+              <div class="checkbox">
+                <input type="checkbox" id="like" name="like">
+                <label for="like">I like it</label>
+              </div>
+              <div class="button-container">
+                <button type="submit" class="send">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="follow-us">
+          <h2>Follow Us</h2>
+          <div class="social-icons">
+            <div class="icon">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fab fa-google"></i></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <span class="scroll-up" id="scrollButton" onclick="scrollToTop()">
+        <div>
+          <div class="triangle_up"></div>
+        </div>
+      </span>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
